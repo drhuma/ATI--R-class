@@ -451,3 +451,4 @@ display.brewer.pal(5,"Set1")
 display.brewer.pal(5,"Blues")
 
 barplot(w, main = "plot", xlab="X", ylab= "Y", border = "black", col= brewer.pal(8,"Spectral") )
+
