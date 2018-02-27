@@ -25,13 +25,12 @@ ceiling(23.3) # three function to round off
 floor(33.7)
 round(23.3)
 
+getwd() # to know working directory
+setwd("D:/") # to set working directory
 getwd()
-setwd("D:/")
-geted()
-getwd()
-save.image("var.RData")
-rm(list=ls())
-load("var.RData")
+save.image("var.RData") # to save Enviroment as image to remember the assigned variables
+rm(list=ls()) # to remove list
+load("var.RData") # to recall the saved enviroment image
 x=3.72
 class(x)
 y=as.integer(x) # coverting to integer
@@ -44,20 +43,20 @@ n = 'True'
 class(n)
 # unidirectional datasets - series of no. and charecters
 # bidecrectional datasets - dataframe, matrix, table
-#3dimentinal datasets
+#3dimentinal datasets - array
 # vectors# - 1. it can take only one datatype, eighter numeric/character/integer etc
           # - 2. 'c' is used as combining operator which combines multiple arrguments into single varible.
           # 3. character take preceedence over numeric
           # 4. numeric take preceedence over logical
-v1 = 23.4:43.4
+
+v3 = (3,7,11,15)
+v3 = c(3,7,11,15)v1 = 23.4:43.4
 v1
 v2 = 23.4:43.1
 v2
 class(v1, V2)
 class(v1)
 class(v2)
-v3 = (3,7,11,15)
-v3 = c(3,7,11,15)
 v3
 class(v3)
 v4 = c(3,7,'11',15)
